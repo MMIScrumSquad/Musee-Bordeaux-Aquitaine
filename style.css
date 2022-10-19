@@ -6,16 +6,28 @@ header{
     align-items: center;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
 .titre{
     border: solid 1px rgb(247, 247, 248);
-    margin-right: 450px;
     width: 150px;
     font-family: 'Ubuntu', sans-serif;
+    margin-left: 10px;
 }
 
 .nav{
     border: solid 1px rgb(255, 255, 255);
     justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.splide__slide img{
+    width: 100%;
+    transition: all;
 }
 
 .truc_accueil{
@@ -25,6 +37,13 @@ header{
     text-decoration: none;
     color: black;
     font-family: 'Ubuntu', sans-serif;
+    transition: transform 1.25s ease,
+        letter-spacing 4s ease;
+}
+
+.truc_accueil:hover{
+    transform: scale(1.5);
+    letter-spacing: 4px;
 }
 
 .recherche{
@@ -160,17 +179,11 @@ header{
     padding-bottom: 10px;
 }
 
-.separateurFooter1 {
-    height: 522px;
-    width: 3px;
-    background-color: rgb(20, 20, 20);
-  }
-
 .footerSuivezNous{
     display: flex;
     justify-content: space-between;
     margin-top:50;
-
+    border-left:solid 1px#141414;
     color: #000000;
     font-family: 'Lustria', serif;
     font-size: 24px;

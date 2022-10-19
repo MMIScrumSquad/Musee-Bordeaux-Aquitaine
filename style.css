@@ -1,0 +1,253 @@
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titre{
+    border: solid 1px rgb(247, 247, 248);
+    margin-right: 450px;
+    width: 150px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav{
+    border: solid 1px rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.truc_accueil{
+    margin-right: 90px;
+    display: inline-block;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.recherche{
+    width: 20px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+
+.billete{
+    background-color: orange;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #FFFFFF;
+}
+
+
+.expo_air_du_temps {
+    color: #232222;
+    background-color: #D9D9D9;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    position:relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+} 
+
+.expo_o_candalebro {
+    color: #FFFFFF;
+    background-color: #232222;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    position:relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ans_histoire {
+    color: #232222;
+    background-color: #D9D9D9;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    position:relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.expo_virtuelle {
+    color: #FFFFFF;
+    background-color: #232222;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    position:relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.air_du_temps {
+    width : auto;
+    max-height : 50px;
+    align-items: center;
+}
+
+
+
+.padding {
+    padding-top: 100px;
+}
+
+.date {
+    color: #6e6868;
+}
+
+
+
+
+/*--FOOTER--------------------------------------------------------------- */
+.footer{
+background-color: white;
+}
+
+.footerInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50;
+
+    color: #000000;
+    font-family: 'Lustria', serif;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerActu{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50;
+
+    color: #000000;
+    font-family: 'Lustria', serif;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerSuivezNous{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50;
+
+    color: #000000;
+    font-family: 'Lustria', serif;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.listeInfo{
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.listeActu{
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.adresseFooter{
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.planMentionContact{
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.langues{
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*________   ________   ________   ___  ___   _____ ______           ________   ________   ___  ___   ________   ________     
+|\   ____\ |\   ____\ |\   __  \ |\  \|\  \ |\   _ \  _   \        |\   ____\ |\   __  \ |\  \|\  \ |\   __  \ |\   ___ \    
+\ \  \___|_\ \  \___| \ \  \|\  \\ \  \\\  \\ \  \\\__\ \  \       \ \  \___|_\ \  \|\  \\ \  \\\  \\ \  \|\  \\ \  \_|\ \   
+ \ \_____  \\ \  \     \ \   _  _\\ \  \\\  \\ \  \\|__| \  \       \ \_____  \\ \  \\\  \\ \  \\\  \\ \   __  \\ \  \ \\ \  
+  \|____|\  \\ \  \____ \ \  \\  \|\ \  \\\  \\ \  \    \ \  \       \|____|\  \\ \  \\\  \\ \  \\\  \\ \  \ \  \\ \  \_\\ \ 
+    ____\_\  \\ \_______\\ \__\\ _\ \ \_______\\ \__\    \ \__\        ____\_\  \\ \_____  \\ \_______\\ \__\ \__\\ \_______\
+   |\_________\\|_______| \|__|\|__| \|_______| \|__|     \|__|       |\_________\\|___| \__\\|_______| \|__|\|__| \|_______|
+   \|_________|                                                       \|_________|      \|__|                                
+*/                                                                                                                     
+                                                                                                                             

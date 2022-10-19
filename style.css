@@ -119,7 +119,13 @@ header{
 
 /*--FOOTER--------------------------------------------------------------- */
 .footer{
-background-color: white;
+    background-color: white;
+}
+
+.hautFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50;
 }
 
 .footerInfo{
@@ -155,9 +161,9 @@ background-color: white;
 }
 
 .separateurFooter1 {
-    height: 500px;
-    width: 500px;
-    background-color: rgb(255, 0, 0);
+    height: 522px;
+    width: 3px;
+    background-color: rgb(20, 20, 20);
   }
 
 .footerSuivezNous{

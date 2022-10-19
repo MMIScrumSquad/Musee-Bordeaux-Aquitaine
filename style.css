@@ -42,6 +42,9 @@ header{
     color: #FFFFFF;
 }
 
+.BODYrangement{
+    flex-direction: column;
+}
 
 .expo_air_du_temps {
     color: #232222;
@@ -55,6 +58,13 @@ header{
     padding-top: 100px;
     padding-bottom: 100px;
 } 
+
+.imageAirDuTemps {
+    display: block;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .expo_o_candalebro {
     color: #FFFFFF;
@@ -95,14 +105,6 @@ header{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
-.air_du_temps {
-    width : auto;
-    max-height : 50px;
-    align-items: center;
-}
-
-
 
 .padding {
     padding-top: 100px;
@@ -151,6 +153,12 @@ background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.separateurFooter1 {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 0, 0);
+  }
 
 .footerSuivezNous{
     display: flex;

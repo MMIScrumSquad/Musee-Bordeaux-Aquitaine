@@ -27,7 +27,11 @@ header{
 
 .splide__slide img{
     width: 100%;
-    transition: all;
+    transition: width 2s ease;
+}
+
+.splide__slide img:hover{
+    width: 102%;
 }
 
 .truc_accueil{
@@ -61,10 +65,6 @@ header{
     color: #FFFFFF;
 }
 
-.BODYrangement{
-    flex-direction: column;
-}
-
 .expo_air_du_temps {
     color: #232222;
     background-color: #D9D9D9;
@@ -78,11 +78,15 @@ header{
     padding-bottom: 100px;
 } 
 
-.imageAirDuTemps {
-    display: block;
-    height: 10%;
-    margin-left: auto;
-    margin-right: auto;
+.imageAirDuTemps{
+    height: 500px;
+}
+
+.imageAirDuTemps img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
 }
 
 .expo_o_candalebro {
@@ -111,6 +115,15 @@ header{
     padding-bottom: 100px;
 }
 
+.imageAnsHistoire {
+    height: 500px;
+}
+
+.imageAnsHistoire img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .expo_virtuelle {
     color: #FFFFFF;
@@ -139,19 +152,43 @@ header{
 /*--FOOTER--------------------------------------------------------------- */
 .footer{
     background-color: white;
+    margin-top: 40px;
+}
+
+.footerDroite{
+    justify-content: space-around;
 }
 
 .hautFooter{
     display: flex;
+    justify-content: space-around;
+    margin-top:50;
+}
+
+.titreInfo{
+    display: flex;
     justify-content: space-between;
     margin-top:50;
+    color: #000000;
+    font-family: 'Lustria', serif;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(204, 0, 255);
 }
 
 .footerInfo{
+    background-color: rgb(115, 255, 0);
+}
+
+.titreActu{
     display: flex;
     justify-content: space-between;
     margin-top:50;
-
     color: #000000;
     font-family: 'Lustria', serif;
     font-size: 24px;
@@ -161,13 +198,17 @@ header{
     position:relative;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: rgb(204, 0, 255);
 }
 
 .footerActu{
+    background-color: rgb(115, 255, 0);
+}
+
+.titreSuivezNous{
     display: flex;
     justify-content: space-between;
     margin-top:50;
-
     color: #000000;
     font-family: 'Lustria', serif;
     font-size: 24px;
@@ -177,22 +218,19 @@ header{
     position:relative;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: rgb(204, 0, 255);
+    justify-content: center;
+}
+
+.reseauxSociaux{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 30%;
 }
 
 .footerSuivezNous{
-    display: flex;
-    justify-content: space-between;
-    margin-top:50;
-    border-left:solid 1px#141414;
-    color: #000000;
-    font-family: 'Lustria', serif;
-    font-size: 24px;
-    text-align: center;
-    line-height: 1.5;
-    letter-spacing: 5%;
-    position:relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: rgb(115, 255, 0);
 }
 
 .listeInfo{
@@ -219,6 +257,18 @@ header{
     padding-bottom: 10px;
 }
 
+.separateurFooter1 {
+    height: 500px;
+    width: 3px;
+    background-color: #141414;
+}
+
+.separateurFooter2 {
+    height: 3px;
+    width: 360px;
+    background-color: #141414;
+}
+
 .adresseFooter{
     color: #000000;
     font-family: 'Ubuntu', sans-serif;
@@ -229,9 +279,15 @@ header{
     position:relative;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right:0px ;
+    background-color: #75c0c6;
 }
 
 .planMentionContact{
+    display: flex;
+    flex-direction: column;
+
     color: #000000;
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
@@ -241,6 +297,11 @@ header{
     position:relative;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #75c0c6;
+
+    
+    justify-content: space-evenly;
+    margin-top: 30%;
 }
 
 .langues{

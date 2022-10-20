@@ -9,6 +9,9 @@ header{
 .logo{
     display: flex;
     align-items: center;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .titre{
@@ -58,8 +61,8 @@ header{
 }
 
 .truc_accueil:hover{
-    transform: scale(1.5);
-    letter-spacing: 4px;
+    transform: scale(1.2);
+    letter-spacing: 5px;
 }
 
 .recherche{

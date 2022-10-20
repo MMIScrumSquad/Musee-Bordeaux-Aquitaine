@@ -4,13 +4,12 @@ header {
     align-items: center;
 }
 
-@media screen and (max-width: 768px){
-    .logo{
-        align-items: center;
-        justify-content:flex-start;
+@media screen and (max-width: 768px) {
+    header {
+        visibility: hidden;
     }
-    .titre{
-        width: 100px;
+    .logo img{
+        visibility: hidden;
     }
 }
 
@@ -146,13 +145,13 @@ header {
 
 
 .triangleBasBlanc {
-    position:absolute;
-    left:10%;
+    position: absolute;
+    left: 10%;
 }
 
 .imageAirDuTemps {
     height: 500px;
-    display:flex;
+    display: flex;
 }
 
 .imageAirDuTemps img {
@@ -204,8 +203,8 @@ header {
 }
 
 .triangleHautBlanc {
-    position:absolute;
-    left:10%;
+    position: absolute;
+    left: 10%;
     margin-top: 28%;
 }
 
@@ -261,7 +260,7 @@ header {
     letter-spacing: 2px;
     position: relative;
     padding-top: 150px;
-    padding-bottom:150px;
+    padding-bottom: 150px;
 }
 
 .image_epigraphie {
@@ -272,7 +271,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-} 
+}
 
 
 
@@ -280,20 +279,14 @@ header {
 .ME_parent {
     display: flex;
     color: #232222;
-    background-color: #D9D9D9; 
-    background-color: red;
+    background-color: #D9D9D9;
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.5;
     letter-spacing: 2px;
     position: relative;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
-}
-.ME_parent .trait {
-    width: 3px;
-    height: 50%;
-    background-color: black;
 }
 
 .ME_arch {
@@ -301,6 +294,15 @@ header {
     font-size: 25px;
     letter-spacing: 2px;
     margin-left: 20px;
+    flex: 1 1 0;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ME_parent .trait {
+    width: 3px;
+    background-color: black;
 }
 
 .ME_chro {
@@ -308,6 +310,10 @@ header {
     font-size: 25px;
     letter-spacing: 2px;
     margin-right: 20px;
+    flex: 1 1 0;
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .separateur_ME {
@@ -344,15 +350,45 @@ iframe {
     margin-left: 80px;
 }
 
+.horaires{
+
+}
+
+.TextMap{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-top: 10%;
+}
 .TextMapTitre {
-    color:white;
+    color: white;
+    font-family: 'Lustria', sans-serif;
     display: inline;
     max-block-size: 50%;
     text-align: center;
     flex-grow: 1;
+    font-size: 36px;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position: relative;
 }
 
-.textmapsize{
+.TextMapParagraphe {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline;
+    max-block-size: 50%;
+    text-align: center;
+    flex-grow: 1;
+    font-size: 24px;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position: relative;
+}
+
+.textmapsize {
     font-size: 30px;
 }
 

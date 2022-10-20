@@ -159,6 +159,10 @@ header{
     justify-content: space-around;
 }
 
+.footerGauche{
+    justify-content: space-around;
+}
+
 .hautFooter{
     display: flex;
     justify-content: space-around;

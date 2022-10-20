@@ -12,10 +12,20 @@ header{
 }
 
 .titre{
-    border: solid 1px rgb(247, 247, 248);
-    width: 150px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    width: 300px;
+    margin-left: 20px;
+}
+
+.titre1{
+    font-size: 20px;
+    width: 300px;
+    font-family: 'Lustria', sans-serif;
+}
+
+.titre2{
+    font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
-    margin-left: 10px;
 }
 
 .nav{
@@ -23,6 +33,8 @@ header{
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-left: 24%;
+    
 }
 
 .splide__slide img{
@@ -102,6 +114,17 @@ header{
     padding-bottom: 100px;
 }
 
+.imageOcandalebro{
+    height: 50px;
+    display: flex;
+
+}
+
+.imageOCandalebro img{
+    
+    object-fit: cover;
+}
+    
 
 .ans_histoire {
     color: #232222;
@@ -139,6 +162,16 @@ header{
     padding-bottom: 100px;
 }
 
+.imageExpoJuive{
+    height: 500px;
+}
+
+.imageExpoJuive img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .padding {
     padding-top: 100px;
 }
@@ -153,21 +186,33 @@ header{
 /*--FOOTER--------------------------------------------------------------- */
 .footer{
     background-color: white;
-    margin-top: 40px;
 }
 
 .footerDroite{
     justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .footerGauche{
     justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footerCentre{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.separateurFooter1{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .hautFooter{
     display: flex;
     justify-content: space-around;
-    margin-top:50;
 }
 
 .titreInfo{
@@ -183,11 +228,11 @@ header{
     position:relative;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(204, 0, 255);
+    background-color: rgba(204, 0, 255, 0);
 }
 
 .footerInfo{
-    background-color: rgb(115, 255, 0);
+    background-color: rgba(115, 255, 0, 0);
 }
 
 .titreActu{
@@ -203,11 +248,11 @@ header{
     position:relative;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(204, 0, 255);
+    background-color: rgba(204, 0, 255, 0);
 }
 
 .footerActu{
-    background-color: rgb(115, 255, 0);
+    background-color: rgba(115, 255, 0, 0);
 }
 
 .titreSuivezNous{
@@ -223,7 +268,7 @@ header{
     position:relative;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(204, 0, 255);
+    background-color: rgba(204, 0, 255, 0);
     justify-content: center;
 }
 
@@ -235,7 +280,7 @@ header{
 }
 
 .footerSuivezNous{
-    background-color: rgb(115, 255, 0);
+    background-color: rgba(115, 255, 0, 0);
 }
 
 .listeInfo{
@@ -286,7 +331,10 @@ header{
     padding-bottom: 10px;
     padding-left: 0px;
     padding-right:0px ;
-    background-color: #75c0c6;
+    background-color: #75c0c600;
+
+    justify-content: space-evenly;
+    margin-top: 30%;
 }
 
 .planMentionContact{
@@ -302,7 +350,7 @@ header{
     position:relative;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #75c0c6;
+    background-color: #75c0c600;
 
     
     justify-content: space-evenly;
@@ -319,6 +367,8 @@ header{
     position:relative;
     padding-top: 10px;
     padding-bottom: 10px;
+
+    margin-top: 55%;
 }
 
 

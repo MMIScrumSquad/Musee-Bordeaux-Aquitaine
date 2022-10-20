@@ -11,3 +11,5 @@ Etape 3 : copy colle les fichiers js (les .min)
  Etape 4 : lier le style (d'abord librairie js dans le body, puis CSS)
 
  cubic-bezier
+
+ @media screen and (max-width: 768px) 

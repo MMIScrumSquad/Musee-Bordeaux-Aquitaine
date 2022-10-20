@@ -4,6 +4,16 @@ header {
     align-items: center;
 }
 
+@media screen and (max-width: 768px){
+    .logo{
+        align-items: center;
+        justify-content:flex-start;
+    }
+    .titre{
+        width: 100px;
+    }
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -31,11 +41,9 @@ header {
 
 .nav {
     border: solid 1px rgb(255, 255, 255);
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     display: flex;
-    width: 100%;
-    margin-right: auto;
     margin-left: 30%;
 
 }
@@ -136,23 +144,21 @@ header {
     position: relative;
 }
 
+
+.triangleBasBlanc {
+    position:absolute;
+    left:10%;
+}
+
 .imageAirDuTemps {
     height: 500px;
+    display:flex;
 }
 
 .imageAirDuTemps img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
-}
-
-.triangleBasBlanc{
-    width: 0;
-    height: 0;
-    border: 150px solid transparent;
-    border-top: 300px;
-    border-bottom: 0px solid red;
 }
 
 .expo_o_candalebro {
@@ -176,8 +182,8 @@ header {
 .imageOcandalebro {
     height: 50px;
     display: flex;
-
 }
+
 
 .imageOCandalebro img {
     object-fit: cover;
@@ -197,11 +203,18 @@ header {
     padding-bottom: 100px;
 }
 
-.imageAnsHistoire {
-    height: 500px;
+.triangleHautBlanc {
+    position:absolute;
+    left:10%;
+    margin-top: 28%;
 }
 
-.imageAnsHistoire img {
+.imageAnsHistoire {
+    height: 500px;
+    display: flex;
+}
+
+.imageAnsHistoireimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -261,19 +274,46 @@ header {
     object-fit: cover;
 } 
 
+
+
+
+.ME_parent {
+    display: flex;
+    color: #232222;
+    background-color: #D9D9D9; 
+    background-color: red;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.ME_parent .trait {
+    width: 3px;
+    height: 50%;
+    background-color: black;
+}
+
 .ME_arch {
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 20px;
 }
 
-.ME_CHRO {
+.ME_chro {
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
+    letter-spacing: 2px;
+    margin-right: 20px;
 }
 
 .separateur_ME {
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: #000000;
 }
 
 
@@ -287,6 +327,8 @@ header {
 .date {
     color: #6e6868;
 }
+
+/*--map---------------------------------------------------------*/
 
 .map {
     background-image: url("images/MapFond.png");
@@ -302,13 +344,16 @@ iframe {
     margin-left: 80px;
 }
 
-.TextMap {
+.TextMapTitre {
     color:white;
     display: inline;
     max-block-size: 50%;
     text-align: center;
     flex-grow: 1;
+}
 
+.textmapsize{
+    font-size: 30px;
 }
 
 /*--FOOTER--------------------------------------------------------------- */

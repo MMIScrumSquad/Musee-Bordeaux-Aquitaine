@@ -4,6 +4,7 @@
 <head>
     <title>Musée de BDX d'Aquitaine</title>
     <meta charset="UTF-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font.css">
@@ -74,9 +75,14 @@
                 collection d'éventails des collectionneurs bordelais.</p>
         </div>
     </div>
-    <div class="imageAirDuTemps">
-        <div class="triangleBasBlanc"></div>
-        <div><img src="images/air-du-temps.jpg"></div>
+
+    <div class="imageAirDuTempsFull">
+        <section class="imageAirDuTemps">
+            <div class="triangleBasBlanc">
+                <img src="images/TriangleBasBlanc.png">
+            </div>
+            <img src="images/air-du-temps.jpg">
+        </section>
     </div>
 
     <!--EXPO O CANDALEBRO----------------------->
@@ -107,6 +113,19 @@
     </div>
 
     <!--4000 ans D'HISTOIRE----------------------->
+    
+
+    <div class="imageAnsHistoireFull">
+        <section class="imageAnsHistoire">
+            <div class="triangleHautBlanc">
+                <img src="images/TriangleHautBlanc.png">
+            </div>
+            <img src="images/QuatreCent_histoire.jpg" class="imageAnsHistoireimg">
+        </section>
+    </div>
+    
+   
+
     <div class="ans_histoire">
 
         <div class="permanente">
@@ -125,10 +144,6 @@
                 préhistoire à
                 l'époque contemporaine.</p>
         </div>
-    </div>
-
-    <div class="imageAnsHistoire">
-        <img src="images/QuatreCent_histoire.jpg">
     </div>
 
     <!--EXPO VIRTUELLE----------------------->
@@ -166,15 +181,22 @@
         <div class="image_epigraphie">
         <img src="images/Epigraphie.png" alt="">
         </div>
+    </section>
+
         <section>
-            <div class="ME_arch">
-                <h2>ARCHIVES DES EXPOSITIONS TEMPORAIRES</h2>
-            </div>
-            <section>
-                <div class="separateur_ME"></div>
-            </section>
-            <div class="ME_CHRO">
-                <h2>CHRONIQUE ARCHÉOLOGIQUE : L'église Saint-Pierre de Bruges</h2>
+            <div class="ME_parent">
+                <section>
+                    <div class="ME_arch">
+                        <h2>ARCHIVES DES EXPOSITIONS TEMPORAIRES</h2>
+                    </div>
+                </section>  
+                <div class="trait">
+                </div>
+                <section>
+                    <div class="ME_chro">
+                        <h2>CHRONIQUE ARCHÉOLOGIQUE : L'église Saint-Pierre de Bruges</h2>
+                    </div>
+                </section>
             </div>
         </section>
     </section>
@@ -187,16 +209,19 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         <section class="TextMap">
-            <h2>Horaires</h2>
-            <h3>ouvert du mardi au dimanche de 11h à 18h <br> Fermé du
+            <h4 class="TextMapTitre"></h4>
+
+            <h2 class="textmapsize">Horaires</h2>
+            <h3 class="textmapsize">ouvert du mardi au dimanche de 11h à 18h <br> Fermé du
                 lundi et jours fériés  </br> <br> Ouvert le 14 juillet et le 15
                 août </br> </h3>
-            <h2>Bibliothèque</h2>
-            <h3>Ouvert du mardi au vendredi <br> De 9h - 12h30/13h30 - 17h </br> </h3>
-            <h2>Adresse</h2>
-            <h3>20 cours Pasteur <br> 33000 Bordeaux </br> </h3>
-            <h2>Contact</h2>
-            <h3>05 56 01 51 04 <br> service.mediation.aquitaine@mairie-Bordeaux.fr </br> </h3>
+
+            <h2 class="textmapsize">Bibliothèque</h2>
+            <h3 class="textmapsize">Ouvert du mardi au vendredi <br> De 9h - 12h30/13h30 - 17h </br> </h3>
+            <h2 class="textmapsize">Adresse</h2>
+            <h3 class="textmapsize">20 cours Pasteur <br> 33000 Bordeaux </br> </h3>
+            <h2 class="textmapsize">Contact</h2>
+            <h3 class="textmapsize">05 56 01 51 04 <br> service.mediation.aquitaine@mairie-Bordeaux.fr </br> </h3>
         </section>
     </div>
 

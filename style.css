@@ -1,55 +1,53 @@
-
-
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
-    
+
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.titre{
+.titre {
     border: solid 2px rgba(0, 0, 0, 0);
     width: 300px;
     margin-left: 20px;
 }
 
-.titre1{
+.titre1 {
     font-size: 20px;
     width: 300px;
     font-family: 'Lustria', sans-serif;
 }
 
-.titre2{
+.titre2 {
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
 
-.nav{
+.nav {
     border: solid 1px rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     display: flex;
     margin-left: 24%;
-    
+
 }
 
-.splide__slide img{
+.splide__slide img {
     width: 100%;
     transition: width 2s ease;
 }
 
-.splide__slide img:hover{
+.splide__slide img:hover {
     width: 102%;
 }
 
-.truc_accueil{
+.truc_accueil {
     margin-right: 90px;
     display: inline-block;
     letter-spacing: 5px;
@@ -60,19 +58,19 @@ header{
         letter-spacing 4s ease;
 }
 
-.truc_accueil:hover{
+.truc_accueil:hover {
     transform: scale(1.2);
     letter-spacing: 5px;
 }
 
-.recherche{
+.recherche {
     width: 20px;
     height: 25px;
     margin-right: 20px;
 }
 
 
-.billete{
+.billete {
     background-color: orange;
     padding: 10px;
     padding-left: 15px;
@@ -88,23 +86,67 @@ header{
     text-align: center;
     line-height: 1.5;
     letter-spacing: 2px;
-    position:relative;
-    padding-top: 100px;
+    position: relative;
+    padding-top: 3%;
     padding-bottom: 100px;
-} 
+}
 
-.imageAirDuTemps{
+.temporaire {
+    display: flex;
+    height: 36px;
+    width: 197px;
+    margin: auto;
+    margin-bottom: 3%;
+    background-color: #A14444;
+}
+
+.temporaireTexte {
+    display: flex;
+    margin: auto;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 32%;
+    position: relative;
+}
+
+.permanente {
+    display: flex;
+    height: 36px;
+    width: 197px;
+    margin: auto;
+    margin-bottom: 3%;
+    background-color: #CBA213;
+}
+
+.permanenteTexte {
+    display: flex;
+    margin: auto;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 32%;
+    position: relative;
+}
+
+.imageAirDuTemps {
     height: 500px;
 }
 
-.imageAirDuTemps img{
+.imageAirDuTemps img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 }
 
 .expo_o_candalebro {
+    display: flex;
+    justify-content: space-around;
     color: #FFFFFF;
     background-color: #232222;
     font-family: 'Ubuntu', sans-serif;
@@ -112,22 +154,21 @@ header{
     text-align: center;
     line-height: 1.5;
     letter-spacing: 2px;
-    position:relative;
-    padding-top: 100px;
+    position: relative;
+    padding-top: 3%;
     padding-bottom: 100px;
 }
 
-.imageOcandalebro{
+.imageOcandalebro {
     height: 50px;
     display: flex;
 
 }
 
-.imageOCandalebro img{
-    
+.imageOCandalebro img {
     object-fit: cover;
 }
-    
+
 
 .ans_histoire {
     color: #232222;
@@ -137,8 +178,8 @@ header{
     text-align: center;
     line-height: 1.5;
     letter-spacing: 2px;
-    position:relative;
-    padding-top: 100px;
+    position: relative;
+    padding-top: 3%;
     padding-bottom: 100px;
 }
 
@@ -146,7 +187,7 @@ header{
     height: 500px;
 }
 
-.imageAnsHistoire img{
+.imageAnsHistoire img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -160,16 +201,16 @@ header{
     text-align: center;
     line-height: 1.5;
     letter-spacing: 2px;
-    position:relative;
+    position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.imageExpoJuive{
+.imageExpoJuive {
     height: 500px;
 }
 
-.imageExpoJuive img{
+.imageExpoJuive img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -185,127 +226,142 @@ header{
 
 
 
+.map {
+    background-image: url("images/MapFond.png");
+    width: 100%;
+}
+
+iframe {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.TextMap {
+    color:white;
+    display: inline;
+    max-block-size: 50%;
+}
 
 /*--FOOTER--------------------------------------------------------------- */
-.footer{
+.footer {
     background-color: white;
 }
 
-.footerDroite{
+.footerDroite {
     justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.footerGauche{
+.footerGauche {
     justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.footerCentre{
+.footerCentre {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.separateurFooter1{
+.separateurFooter1 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.hautFooter{
+.hautFooter {
     display: flex;
     justify-content: space-around;
 }
 
-.titreInfo{
+.titreInfo {
     display: flex;
     justify-content: space-between;
-    margin-top:50;
+    margin-top: 50;
     color: #000000;
     font-family: 'Lustria', serif;
     font-size: 24px;
     text-align: center;
     line-height: 1.5;
     letter-spacing: 5%;
-    position:relative;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgba(204, 0, 255, 0);
 }
 
-.footerInfo{
+.footerInfo {
     background-color: rgba(115, 255, 0, 0);
 }
 
-.titreActu{
+.titreActu {
     display: flex;
     justify-content: space-between;
-    margin-top:50;
+    margin-top: 50;
     color: #000000;
     font-family: 'Lustria', serif;
     font-size: 24px;
     text-align: center;
     line-height: 1.5;
     letter-spacing: 5%;
-    position:relative;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgba(204, 0, 255, 0);
 }
 
-.footerActu{
+.footerActu {
     background-color: rgba(115, 255, 0, 0);
 }
 
-.titreSuivezNous{
+.titreSuivezNous {
     display: flex;
     justify-content: space-between;
-    margin-top:50;
+    margin-top: 50;
     color: #000000;
     font-family: 'Lustria', serif;
     font-size: 24px;
     text-align: center;
     line-height: 1.5;
     letter-spacing: 5%;
-    position:relative;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgba(204, 0, 255, 0);
     justify-content: center;
 }
 
-.reseauxSociaux{
+.reseauxSociaux {
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
     margin-bottom: 30%;
 }
 
-.footerSuivezNous{
+.footerSuivezNous {
     background-color: rgba(115, 255, 0, 0);
 }
 
-.listeInfo{
+.listeInfo {
     color: #000000;
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     text-align: left;
     line-height: 1.5;
     letter-spacing: 5%;
-    position:relative;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.listeActu{
+.listeActu {
     color: #000000;
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     text-align: left;
     line-height: 1.5;
     letter-spacing: 5%;
-    position:relative;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -322,25 +378,25 @@ header{
     background-color: #141414;
 }
 
-.adresseFooter{
+.adresseFooter {
     color: #000000;
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     text-align: left;
     line-height: 1.5;
     letter-spacing: 5%;
-    position:relative;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0px;
-    padding-right:0px ;
+    padding-right: 0px;
     background-color: #75c0c600;
 
     justify-content: space-evenly;
     margin-top: 30%;
 }
 
-.planMentionContact{
+.planMentionContact {
     display: flex;
     flex-direction: column;
 
@@ -350,24 +406,24 @@ header{
     text-align: center;
     line-height: 1.5;
     letter-spacing: 5%;
-    position:relative;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #75c0c600;
 
-    
+
     justify-content: space-evenly;
     margin-top: 30%;
 }
 
-.langues{
+.langues {
     color: #000000;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
     letter-spacing: 5%;
-    position:relative;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -395,5 +451,4 @@ header{
     ____\_\  \\ \_______\\ \__\\ _\ \ \_______\\ \__\    \ \__\        ____\_\  \\ \_____  \\ \_______\\ \__\ \__\\ \_______\
    |\_________\\|_______| \|__|\|__| \|_______| \|__|     \|__|       |\_________\\|___| \__\\|_______| \|__|\|__| \|_______|
    \|_________|                                                       \|_________|      \|__|                                
-*/                                                                                                                     
-                                                                                                                             
+*/

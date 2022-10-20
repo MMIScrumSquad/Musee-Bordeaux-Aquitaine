@@ -1,223 +1,268 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-    <head>
-        <title>Musée de BDX d'Aquitaine</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="font.css">
-        <link rel="stylesheet" href="splide.min.css">
+<head>
+    <title>Musée de BDX d'Aquitaine</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="splide.min.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lustria&family=Ubuntu&display=swap"
-            rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lustria&family=Ubuntu&display=swap" rel="stylesheet">
 
-    </head>
+</head>
 
 
-    <body>
-        <header>
-            <div class="logo">
-                <img src="images/logosite.png" alt="Logo Musée" width=65px
-                    height=70px class="logoo">
-                <div class="titre">
-                    <h1 class="titre1">Musée d'Aquitaine</h1>
-                    <h2 class="titre2">Bordeaux</h2>
-                </div>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logosite.png" alt="Logo Musée" width=65px height=70px class="logoo">
+            <div class="titre">
+                <h1 class="titre1">Musée d'Aquitaine</h1>
+                <h2 class="titre2">Bordeaux</h2>
+            </div>
 
             <div class="nav">
                 <a href="#" class="truc_accueil">Accueil</a>
                 <a href="#" class="truc_accueil">Collection</a>
                 <a href="#" class="truc_accueil">Boutique</a>
                 <a href="#" class="truc_accueil billete">Billeterie</a>
-                <img src="images/Loupe.png" alt="Loupe de recherche"
-                    class="recherche">
+                <img src="images/Loupe.png" alt="Loupe de recherche" class="recherche">
             </div>
 
-        </header>
-        <section>
-            <script src="splide.min.js"></script>
-            <section class="splide" aria-label="Splide Basic HTML Example">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide"><img src="images/Carousselle 1.png" alt=""></li>
-                        <li class="splide__slide"><img src="images/Carousselle 2.png" alt=""></li>
-                        <li class="splide__slide"><img src="images/Carousselle 3.png" alt=""></li>
-                        <li class="splide__slide"><img src="images/Carousselle 4.png" alt=""></li>
-                    </ul>
-                </div>
-            </section>
-            <script>
+    </header>
+    <section>
+        <script src="splide.min.js"></script>
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="images/Carousselle 1.png" alt=""></li>
+                    <li class="splide__slide"><img src="images/Carousselle 2.png" alt=""></li>
+                    <li class="splide__slide"><img src="images/Carousselle 3.png" alt=""></li>
+                    <li class="splide__slide"><img src="images/Carousselle 4.png" alt=""></li>
+                </ul>
+            </div>
+        </section>
+        <script>
             document.addEventListener('DOMContentLoaded', function () {
                 var splide = new Splide('.splide');
                 splide.mount();
             });
         </script>
-        </section>
+    </section>
 
-        <!--EXPO L'AIR DU TEMPS----------------------->
-        <div class="expo_air_du_temps">
-            <h2>EXPOSITION L’AIR DU TEMPS</h2>
-            <div class="date">
-                <h3>Du 16/06 au 20/11</h3>
-            </div>
-            <div class="padding">
-                <p>Découvrez plusieurs centaines de pièces issues de la
-                    remarquable
-                    collection d'éventails des collectionneurs bordelais.</p>
+    <!--EXPO L'AIR DU TEMPS----------------------->
+    <div class="expo_air_du_temps">
+
+        <div class="temporaire">
+            <div class="temporaireTexte">
+                <p>TEMPORAIRE</p>
             </div>
         </div>
-        <div class="imageAirDuTemps">
-            <img src="images/air-du-temps.jpg">
-        </div>
 
-        <!--EXPO O CANDALEBRO----------------------->
-        <div class="expo_o_candalebro">
+        <h2>EXPOSITION L’AIR DU TEMPS</h2>
+        <div class="date">
+            <h3>Du 16/06 au 20/11</h3>
+        </div>
+        <div class="padding">
+            <p>Découvrez plusieurs centaines de pièces issues de la
+                remarquable
+                collection d'éventails des collectionneurs bordelais.</p>
+        </div>
+    </div>
+    <div class="imageAirDuTemps">
+        <img src="images/air-du-temps.jpg">
+    </div>
+
+    <!--EXPO O CANDALEBRO----------------------->
+    <div class="expo_o_candalebro">
+        <section class="expo_o_candalebro_Gauche">
+            <div class="temporaire">
+                <div class="temporaireTexte">
+                    <p>TEMPORAIRE</p>
+                </div>
+            </div>
+
             <h2>EXPOSITION O CANDALEBRO</h2>
+
             <div class="date">
                 <h3>Du 13/05 au 8/01</h3>
             </div>
+
             <div class="padding">
-                <p>Plus d'un million de réfugiés se pressent dans les rues de la
-                    ville, fuyant l'avancée de l'armée allemande du IIIe Reich.</p>
+                <p>Plus d'un million de réfugiés se pressent dans les rues
+                    de la
+                    ville, fuyant l'avancée de l'armée allemande du IIIe
+                    Reich.</p>
             </div>
+        </section>
+
+        <section class="expo_o_candalebro_Droite">
             <div class="'imageOcandalebro">
                 <img src="images/Ocandalebro.png" alt="">
             </div>
+        </section>
+    </div>
 
-            <!--4000 ans D'HISTOIRE----------------------->
-            <div class="ans_histoire">
-                <h2>EXPOSITION 400 MILLES ANS D'HISTOIRE</h2>
-                <div class="padding">
-                    <p>Grâce à la richesse et à la variété de ses collections,
-                        le musée
-                        d'Aquitaine invite le visiteur à partir
-                        à la découverte de l'histoire régionale, de la
-                        préhistoire à
-                        l'époque contemporaine.</p>
-                </div>
+    <!--4000 ans D'HISTOIRE----------------------->
+    <div class="ans_histoire">
+
+        <div class="permanente">
+            <div class="permanenteTexte">
+                <p>PERMANENTE</p>
             </div>
-            <div class="imageAnsHistoire">
-                <img src="images/QuatreCent_histoire.jpg">
-            </div>
+        </div>
 
-            <!--EXPO VIRTUELLE----------------------->
-            <div class="expo_virtuelle">
-                <h2>EXPOSITION VIRTUELLE : DESTINÉES JUIVES</h2>
-                <div class="padding">
-                    <p>L'exposition témoigne du drame humain vécu par les
-                        populations de
-                        confession juive installées
-                        à Bordeaux durant la Seconde Guerre mondiale.</p>
-                </div>
-            </div>
-            <div class="imageExpoJuive">
-                <img src="images/ExpoJuive.png" alt="">
-            </div>
-        
-            <!--FOOTER--===========================================================-->
-            <div class="footer">
-                <div class="hautFooter">
-                    <!--Infos pratiques-->
-                    <section class="footerGauche">
-                        <section class="footerInfo">
-                            <h2 class="titreInfo">Infos Pratiques</h2>
-                            <ul class="listeInfo">
-                                <li>AGENDA</li>
-                                <li>VENIR AU MUSÉE</li>
-                                <li>HORAIRES ET TARIFS</li>
-                                <li>SOUTENEZ LE MUSÉE</li>
-                                <li>DOSSIERS DE PRESSE</li>
-                                <li>REVUE DE PRESSE</li>
-                                <li>NOS PARTENAIRES</li>
-                                <li>PRIVATISATION</li>
-                            </ul>
-                        </section>
+        <h2>EXPOSITION 400 MILLES ANS D'HISTOIRE</h2>
+        <div class="padding">
+            <p>Grâce à la richesse et à la variété de ses
+                collections,
+                le musée
+                d'Aquitaine invite le visiteur à partir
+                à la découverte de l'histoire régionale, de la
+                préhistoire à
+                l'époque contemporaine.</p>
+        </div>
+    </div>
 
-                        <!--Adresse-->
-                        <ul class="adresseFooter">
-                            <li>MUSÉE D'AQUITAINE</li>
-                            <li>20 COURS PASTEUR, 33000 BORDEAUX</li>
-                            <li>05 56 01 51 00</li>
-                        </ul>
+    <div class="imageAnsHistoire">
+        <img src="images/QuatreCent_histoire.jpg">
+    </div>
 
-                    </section>
+    <!--EXPO VIRTUELLE----------------------->
+    <div class="expo_v
+                
+                <!--MUSEE EPIGRAPHIE----------------------->
+                <div class=" musee_epigraphie">
+        <h2>MUSÉE VIRTUEL D'ÉPIGRAPHIE</h2>
+    </div>
+    <div class="musee_epigraphie">
+        <img src="images/Epigraphie.png" alt="">
+    </div>
+    <h2>EXPOSITION VIRTUELLE : DESTINÉES JUIVES</h2>
+    <div class="padding">
+        <p>L'exposition témoigne du drame humain vécu par les
+            populations de
+            confession juive installées
+            à Bordeaux durant la Seconde Guerre mondiale.</p>
+    </div>
+    </div>
+    <div class="imageExpoJuive">
+        <img src="images/ExpoJuive.png" alt="">
+    </div>
 
-                    <!--Actualités-->
-                    <section class="footerCentre">
-                        <section class="footerActu">
-                            <h2 class="titreActu">Actualités</h2>
-                            <ul class="listeActu">
-                                <li>BIBLIOTHÈQUE FERMÉE LE 14 OCTOBRE</li>
-                                <li>EXPOSITION "L'AIR DU TEMPS"</li>
-                                <li>ESCAPE GAME AU MUSÉE</li>
-                                <li>RECEVOIR NOS ACTUALITÉS</li>
-                                <li>VOIR LA DERNIÈRE INFOLETTRE</li>
-                            </ul>
-                        </section>
+    <!--Map----------->
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.3127911751076!2d-0.577144284231513!3d44.835562983188645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527c5d83ab46f%3A0x6d35932779e19514!2zTXVzw6llIGTigJlBcXVpdGFpbmU!5e0!3m2!1sfr!2sfr!4v1666268408159!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="TextMap">
+            <h2>Horaires</h2>
+            <h3>ouvert du mardi au dimanche de 11h à 18h <br>Fermé du
+                lundi et jours fériés</br>Ouvert le 14 juillet et le 15
+                août<br></h3>
+            <h2>Bibliothèque</h2>
+            <h3>Ouvert du mardi au vendredi <br>De 9h - 12h30/13h30 - 17h</br></h3>
+            <h2>Adresse</h2>
+            <h3>20 cours Pasteur <br>33000 Bordeaux</br></h3>
+            <h2>Contact</h2>
+            <h3>05 56 01 51 04 <br>service.mediation.aquitaine@mairie-Bordeaux.fr</br></h3>
+        </section>
+    </div>
 
-                        <!--Langues-->
-                        <h3 class="langues"><strong>FR</strong> / EN / ESP</h3>
 
-                    </section>
+    <!--FOOTER--===========================================================-->
+    <div class="footer">
+        <div class="hautFooter">
+            <!--Infos pratiques-->
+            <section class="footerGauche">
+                <section class="footerInfo">
+                    <h2 class="titreInfo">Infos Pratiques</h2>
+                    <ul class="listeInfo">
+                        <li>AGENDA</li>
+                        <li>VENIR AU MUSÉE</li>
+                        <li>HORAIRES ET TARIFS</li>
+                        <li>SOUTENEZ LE MUSÉE</li>
+                        <li>DOSSIERS DE PRESSE</li>
+                        <li>REVUE DE PRESSE</li>
+                        <li>NOS PARTENAIRES</li>
+                        <li>PRIVATISATION</li>
+                    </ul>
+                </section>
 
-                    <!--Séparateur Footer 1-->
-                    <section>
-                        <div class="separateurFooter1"></div>
-                    </section>
+                <!--Adresse-->
+                <ul class="adresseFooter">
+                    <li>MUSÉE D'AQUITAINE</li>
+                    <li>20 COURS PASTEUR, 33000 BORDEAUX</li>
+                    <li>05 56 01 51 00</li>
+                </ul>
 
-                    <!--Suivez nous-->
-                    <section class="footerDroite">
-                        <section class="footerSuivezNous">
-                            <h2 class="titreSuivezNous">Suivez Nous !</h2>
-                            <div class="reseauxSociaux">
-                                <a
-                                    href="https://www.facebook.com/musee.aquitaine"
-                                    target="_blank">
-                                    <img src="images/facebook.png" width=50
-                                        class="face">
-                                </a>
-                                <a href="https://twitter.com/MuseeAquitaine"
-                                    target="_blank">
-                                    <img src="images/twitter.png" widht=50
-                                        height=50>
-                                </a>
-                                <a
-                                    href="https://www.instagram.com/musee_aquitaine/"
-                                    target="_blank">
-                                    <img src="images/instagram.png" width=50
-                                        height=50>
-                                </a>
-                                <a
-                                    href="https://www.youtube.com/channel/UCNmf4zwWQL7YuFh6iGJi4GA"
-                                    target="_blank">
-                                    <img src="images/youtube.png" width=50
-                                        height=50>
-                                </a>
-                            </div>
-                        </section>
+            </section>
 
-                        <div class="separateurFooter2"></div>
+            <!--Actualités-->
+            <section class="footerCentre">
+                <section class="footerActu">
+                    <h2 class="titreActu">Actualités</h2>
+                    <ul class="listeActu">
+                        <li>BIBLIOTHÈQUE FERMÉE LE 14 OCTOBRE</li>
+                        <li>EXPOSITION "L'AIR DU TEMPS"</li>
+                        <li>ESCAPE GAME AU MUSÉE</li>
+                        <li>RECEVOIR NOS ACTUALITÉS</li>
+                        <li>VOIR LA DERNIÈRE INFOLETTRE</li>
+                    </ul>
+                </section>
 
-                        <!--Plan du site / Mentions légales / Contact-->
-                        <ul class="planMentionContact">
-                            <li>PLAN DU SITE</li>
-                            <li>MENTIONS LÉGALES</li>
-                            <li>CONTACT</li>
-                        </ul>
+                <!--Langues-->
+                <h3 class="langues"><strong>FR</strong> / EN / ESP</h3>
+            </section>
 
-                    </section>
-                </div>
+            <!--Séparateur Footer 1-->
+            <section>
+                <div class="separateurFooter1"></div>
+            </section>
 
-            </div>
-        </body>
+            <!--Suivez nous-->
+            <section class="footerDroite">
+                <section class="footerSuivezNous">
+                    <h2 class="titreSuivezNous">Suivez Nous !</h2>
+                    <div class="reseauxSociaux">
+                        <a href="https://www.facebook.com/musee.aquitaine" target="_blank">
+                            <img src="images/facebook.png" width=50 class="face">
+                        </a>
+                        <a href="https://twitter.com/MuseeAquitaine" target="_blank">
+                            <img src="images/twitter.png" widht=50 height=50>
+                        </a>
+                        <a href="https://www.instagram.com/musee_aquitaine/" target="_blank">
+                            <img src="images/instagram.png" width=50 height=50>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCNmf4zwWQL7YuFh6iGJi4GA" target="_blank">
+                            <img src="images/youtube.png" width=50 height=50>
+                        </a>
+                    </div>
+                </section>
 
-    </html>
+                <div class="separateurFooter2"></div>
 
-    <!--
+                <!--Plan du site / Mentions légales / Contact-->
+                <ul class="planMentionContact">
+                    <li>PLAN DU SITE</li>
+                    <li>MENTIONS LÉGALES</li>
+                    <li>CONTACT</li>
+                </ul>
+
+            </section>
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+<!--
 ________   ________   ________   ___  ___   _____ ______           ________   ________   ___  ___   ________   ________     
 |\   ____\ |\   ____\ |\   __  \ |\  \|\  \ |\   _ \  _   \        |\   ____\ |\   __  \ |\  \|\  \ |\   __  \ |\   ___ \    
 \ \  \___|_\ \  \___| \ \  \|\  \\ \  \\\  \\ \  \\\__\ \  \       \ \  \___|_\ \  \|\  \\ \  \\\  \\ \  \|\  \\ \  \_|\ \   

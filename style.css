@@ -339,7 +339,7 @@ header {
     height: 800px;
     display: flex;
     align-items: center;
-
+    justify-content: space-evenly;
 }
 
 iframe {
@@ -353,7 +353,7 @@ iframe {
     flex-direction: column;
     margin-top: 0%;
     margin-top: 0%;
-    justify-content: space-around;
+    column-gap: 20px;
 }
 .TextMapTitre {
     color: white;

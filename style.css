@@ -731,6 +731,11 @@ header {
         flex-direction: column;
     }
    
+    .musee_epigraphie {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
     .image_epigraphie {
         height: 200px;
     }
@@ -763,6 +768,7 @@ header {
 
     .triangleHautBlanc{
         margin-top: 12%;
+        opacity: 0%;
     }
 
     .TextMap{

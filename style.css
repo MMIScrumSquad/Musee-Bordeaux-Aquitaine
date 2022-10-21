@@ -6,10 +6,7 @@ header {
 
 @media screen and (max-width: 768px) {
     header {
-        visibility: hidden;
-    }
-    .logo img{
-        visibility: hidden;
+        width:100%;
     }
 }
 
@@ -374,7 +371,7 @@ iframe {
     position: relative;
 }
 
-.TextMapParagraphe {
+.listeHoraires {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     display: inline;

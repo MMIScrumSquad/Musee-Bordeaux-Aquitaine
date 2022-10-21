@@ -385,6 +385,34 @@ iframe {
     position: relative;
 }
 
+.listeBibliotheque {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline;
+    max-block-size: 50%;
+    text-align: center;
+    flex-grow: 1;
+    font-size: 24px;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position: relative;
+}
+
+.listeAdresse {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline;
+    max-block-size: 50%;
+    text-align: center;
+    flex-grow: 1;
+    font-size: 24px;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 5%;
+    position: relative;
+}
+
 .textmapsize {
     font-size: 30px;
 }

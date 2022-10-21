@@ -4,16 +4,16 @@
 <head>
     <title>Musée de BDX d'Aquitaine</title>
     <meta charset="UTF-8">
-    <meta name=”viewport” content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+   
     <link rel="stylesheet" href="font.css">
     <link rel="stylesheet" href="splide.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lustria&family=Ubuntu&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -31,21 +31,38 @@
                 <a href="#" class="truc_accueil">Boutique</a>
                 <a href="#" class="truc_accueil billete">Billeterie</a>
                 <img src="images/Loupe.png" alt="Loupe de recherche" class="recherche">
-                <label
-                    <input type="text" class="search-input" alt="Barre de recherche" >
+                <label>
+                <input type="text" class="search-input" alt="Barre de recherche" >
                 </label>
                 </div>
         </div>
+        <nav class="main-menu" id="menu">
+            <a class="open" href="#menu">
+            menu
+            </a>
+            <a class="close" href="#">
+            fermer
+            </a>
+            
+            <ul id="menu">
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+            </ul>
+        </nav>
     </header>
     <div>
         <script src="splide.min.js"></script>
         <section class="splide" aria-label="Splide Basic HTML Example">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide"><img src="images/Carousselle_1.webp" alt=""></li>
-                    <li class="splide__slide"><img src="images/Carousselle_2.webp" alt=""></li>
-                    <li class="splide__slide"><img src="images/Carousselle_3.webp" alt=""></li>
-                    <li class="splide__slide"><img src="images/Carousselle_4.webp" alt=""></li>
+                    <li class="splide__slide"><img src="images/Carousselle_1.webp" alt="" loading="lazy"></li>
+                    <li class="splide__slide"><img src="images/Carousselle_2.webp" alt="" loading="lazy"></li>
+                    <li class="splide__slide"><img src="images/Carousselle_3.webp" alt="" loading="lazy"></li>
+                    <li class="splide__slide"><img src="images/Carousselle_4.webp" alt="" loading="lazy"></li>
                 </ul>
             </div>
         </section>
@@ -76,11 +93,12 @@
                 collection d'éventails des collectionneurs bordelais.</p>
         </div>
 
-        <div class="acceder">
-            <section class="accederTexte">
-                <p>ACCEDER</p>
-            </section>
-        </div>
+        <a href="#" class="acceder">
+            <div class="accederTexte">
+                <section><p>ACCEDER</p></section>
+                <section class="flecheDroiteAcceder"></section>
+            </div>
+        </a>
     </div>
 
     <div class="imageAirDuTempsFull">
@@ -111,6 +129,14 @@
                 <p>Plus d'un million de réfugiés se pressent dans les rues de la ville, fuyant l'avancée de l'armée
                     allemande du IIIe Reich.</p>
             </div>
+
+            <a href="#" class="acceder">
+                <div class="accederTexte">
+                    <section><p>ACCEDER</p></section>
+                    <section class="flecheDroiteAcceder"></section>
+                </div>
+            </a>
+
         </section>
 
         <div class="expo_o_candalebro_Droite">
@@ -152,6 +178,15 @@
                 préhistoire à
                 l'époque contemporaine.</p>
         </div>
+
+
+        <a href="#" class="acceder">
+            <div class="accederTexte">
+                <section><p>ACCEDER</p></section>
+                <section class="flecheDroiteAcceder"></section>
+            </div>
+        </a>
+
     </div>
 
     <!--EXPO VIRTUELLE-->
@@ -178,7 +213,16 @@
                     confession juive installées
                     à Bordeaux durant la Seconde Guerre mondiale.</p>
             </div>
+
+            <a href="#" class="acceder">
+                <div class="accederTexte">
+                    <section><p>ACCEDER</p></section>
+                    <section class="flecheDroiteAcceder"></section>
+                </div>
+            </a>
+
         </section>
+
     </div>
 
     <!--MUSEE EPIGRAPHIE-->
@@ -194,12 +238,12 @@
     <section>
         <div class="ME_parent">
             <div class="ME_arch">
-                <h2>ARCHIVES DES EXPOSITIONS TEMPORAIRES</h2>
+                <a href="#">ARCHIVES DES EXPOSITIONS TEMPORAIRES</a>
             </div>
             <div class="trait">
             </div>
             <div class="ME_chro">
-                <h2>CHRONIQUE ARCHÉOLOGIQUE : L'église Saint-Pierre de Bruges</h2>
+                <a href="#">CHRONIQUE ARCHÉOLOGIQUE : L'église Saint-Pierre de Bruges</a>
             </div>
         </div>
     </section>
@@ -253,10 +297,13 @@
 
     <!--FOOTER-->
     <div class="footer">
+        <div class="uparrow">
+            <img src="uparrow.png" alt="">
+        </div>
         <div class="hautFooter">
             <!--Infos pratiques-->
-            <div class="footerGauche">
-                <section class="footerInfo">
+            <section class="footerGauche">
+                <div class="footerInfo">
                     <h2 class="titreInfo">Infos Pratiques</h2>
                     <ul class="listeInfo">
                         <li>AGENDA</li>
@@ -268,7 +315,7 @@
                         <li>NOS PARTENAIRES</li>
                         <li>PRIVATISATION</li>
                     </ul>
-                </section>
+                </div>
 
                 <!--Adresse-->
                 <ul class="adresseFooter">
@@ -277,7 +324,7 @@
                     <li>05 56 01 51 00</li>
                 </ul>
 
-            </div>
+            </section>
 
             <!--Actualités-->
             <div class="footerCentre">
